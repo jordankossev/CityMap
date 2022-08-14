@@ -2,6 +2,7 @@
 A simple project implementing a weighted digraph as a city map
 
 The map information is stored in a text file where each row corresponds to a different junction. The format of the rows is:
+
   <junction> <neighbour(0)> <distance(0)> <neighbour(1)> <distance(1)> ...
  where <distance(i)> is the distance from <junction> to <neighbour(i)>.
   
